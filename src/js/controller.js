@@ -29,7 +29,6 @@ const controlRecipe = async function () {
     recipeView.render(model.state.recipe);
   } catch (error) {
     recipeView.renderError();
-    console.error(error);
   }
 };
 const controlSearchResults = async function () {
