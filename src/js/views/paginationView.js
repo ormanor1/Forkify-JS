@@ -53,7 +53,6 @@ class PaginationView extends View {
     }
     // last Page
     if (currPage === numPages && numPages > 1) {
-      console.log(currPage, numPages);
       return `<button data-goto="${
         currPage - 1
       }" class="btn--inline pagination__btn--prev">
